@@ -331,8 +331,8 @@ export const ui = {
 
   /* ---------- footer ---------- */
   footer_line: {
-    en: 'Abu Dhabi: The Future of Technology · A Grade 6E student research project',
-    ar: 'أبوظبي: مستقبل التكنولوجيا · مشروع بحثي لطالبة من الصف السادس (E)',
+    en: 'Abu Dhabi: The Future of Technology · A Grade 6E research project by Shaden Ahmed Mourad',
+    ar: 'أبوظبي: مستقبل التكنولوجيا · مشروع بحثي من إعداد شادن أحمد مراد، الصف السادس (E)',
   },
   footer_made: { en: 'Made with curiosity in the UAE', ar: 'صُنع بشغف الاستكشاف في الإمارات' },
 } as const satisfies Record<string, L>;
