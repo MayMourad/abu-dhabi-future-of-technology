@@ -1,0 +1,49 @@
+/* ============================================================
+   Design tokens — UAE-inspired palette, type, spacing, motion
+   ============================================================ */
+:root {
+  /* colour */
+  --emerald: #087f5b;
+  --deep: #075c48;
+  --ivory: #fbf8f2;
+  --pearl: #ffffff;
+  --sand: #e8d9be;
+  --sand-soft: #f4ecd9;
+  --gold: #c5a46d;
+  --gold-ink: #7a5e28;
+  --red: #d64747;
+  --red-ink: #a62b2b;
+  --teal: #67b5ad;
+  --teal-soft: #dff0ed;
+  --charcoal: #26332f;
+  --muted: #55655f;
+  --line: rgba(7, 92, 72, 0.14);
+
+  /* type */
+  --font-en: 'Plus Jakarta Sans', 'Manrope', 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-ar: 'IBM Plex Sans Arabic', 'Tajawal', 'Cairo', 'Segoe UI', system-ui, sans-serif;
+  --font: var(--font-en);
+
+  /* shape + depth */
+  --r-sm: 12px;
+  --r-md: 20px;
+  --r-lg: 28px;
+  --r-xl: 44px;
+  --shadow-sm: 0 2px 8px rgba(7, 92, 72, 0.08);
+  --shadow-md: 0 12px 32px rgba(7, 92, 72, 0.12), 0 2px 6px rgba(7, 92, 72, 0.06);
+  --shadow-lg: 0 28px 64px rgba(7, 92, 72, 0.18), 0 6px 16px rgba(7, 92, 72, 0.08);
+
+  /* layout */
+  --gutter: clamp(16px, 4vw, 40px);
+  --max: 1240px;
+  --header-h: 72px;
+
+  /* motion */
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --t-fast: 160ms;
+  --t-med: 320ms;
+}
+
+html[lang='ar'] {
+  --font: var(--font-ar);
+}
